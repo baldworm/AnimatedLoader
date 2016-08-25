@@ -1,0 +1,12 @@
+#preloader_background {
+    background: #000000;
+    opacity: .7;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+
+}
