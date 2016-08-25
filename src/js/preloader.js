@@ -42,11 +42,3 @@ function Preloader(){
         span.textContent = ANIMATION_TEXT.slice(0, frame);
     }
 }
-function showPreloader () {
-    preloader.show();
-    setTimeout(hidePreloader,4000);
-
-}
-function hidePreloader(){
-    preloader.hide();
-}
