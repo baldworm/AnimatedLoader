@@ -14,14 +14,16 @@ function Preloader(){
 
     var frame = 0;
 
+    var timerId;
+
     this.show = function (){
         document.body.appendChild(backDiv);
-        this.timerId = setInterval(animate,300);
+        timerId = setInterval(animate,300);
 
     }
     this.hide = function (){
         document.body.removeChild(backDiv);
-        clearInterval(this.timerId)
+        clearInterval(timerId)
     }
 
     function animate(){
