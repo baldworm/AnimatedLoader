@@ -1,4 +1,4 @@
-#preloader_background {
+div#preloader_background {
     background: #000000;
     opacity: .7;
     width: 100%;
@@ -8,5 +8,24 @@
     left: 0;
     position: fixed;
     display: block;
+
+    text-align: center;
+
+
+    font-size: 50px;
+    color: #ffffff;
+
+    padding-top: 200px;
+
+
+    -moz-user-select: -moz-none;
+
+    -webkit-user-select: none;
+    user-select: none;
+}
+div#preloader_background span{
+
+    color: #fefefe;
+
 
 }
